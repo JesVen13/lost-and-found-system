@@ -502,7 +502,6 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     }
 });
 
-// Remove demo accounts box after 10 seconds (optional)
 setTimeout(function() {
     const quickLogin = document.querySelector('.quick-login');
     if(quickLogin) {

@@ -89,3 +89,12 @@ CREATE TABLE claims (
     INDEX idx_item (item_id, item_type),
     INDEX idx_reviewed_by (reviewed_by)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO users (username, password, email, role, status)
+VALUES (
+    'nenskibidi@gmail.com',
+    '$2b$12$x9rZ0NEe6xao34LnJsT3juN/ymfeiu4lP8QMgu9wKNO5D7ns/I.ve',
+    'nenskibidi@gmail.com',
+    'admin',
+    'approved'
+);
